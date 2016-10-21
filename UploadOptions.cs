@@ -12,8 +12,11 @@ namespace JunarUpload
         public string Category { get; set; }
         public List<string> Tags { get; set; }
         public string Notes { get; set; }
+        public string License { get; set; }
         public string FilePath { get; set; }
         public string GUID { get; set; }
+        public string ContentType { get; set; }
         public string TableId { get; set; }
+        public string Get { get; set; }
     }
 }
