@@ -7,9 +7,13 @@
   "dependencies": {
     "Microsoft.Extensions.CommandLineUtils": "1.0.0",
     "Microsoft.NETCore.App": {
-      "type": "platform",
       "version": "1.0.1"
     }
+  },
+
+  "runtimes": {
+    "win7-x64": {},
+    "win81-x64": {}
   },
 
   "frameworks": {
