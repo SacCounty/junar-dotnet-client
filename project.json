@@ -1,0 +1,24 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.CommandLineUtils": "1.0.0",
+    "Microsoft.NETCore.App": {
+      "version": "1.0.1"
+    }
+  },
+
+  "runtimes": {
+    "win7-x64": {},
+    "win81-x64": {}
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}

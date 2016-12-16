@@ -1,0 +1,2 @@
+REM junar-dotnet-uploader.exe -t "Elvis Pley Test Data" -d "Elvis Pley Test Data" -k "xyzedkey..." -u "http://whoAreYou.cloudapi.junar.com/datastreams/publish" -ct "application/octet-stream" -c "County Services" -ta "emc" -g "ELVIS-PLEY-YELP-LIVES-FILE"  -n "Updated from script" -f "C:\sourcelocation\JunarUpload\elvis_pley_testdata.zip"  >> junarLog.txt
+junar-dotnet-uploader.exe -G true -k "xyzedkey..." -u "http://whoarewe.cloudapi.junar.com/api/v2/datastreams.json" >> junarLog_datastreams_10_31.json.txt
