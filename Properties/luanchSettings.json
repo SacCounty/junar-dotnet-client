@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "junar-dotnet-uploader": {
+      "commandName": "Project",
+      "commandLineArgs": "-G true -k \"private_key\" -u \"http://saccounty.cloudapi.junar.com/datastreams/publish\""
+    }
+  }
+}
